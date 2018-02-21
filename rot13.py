@@ -1,5 +1,5 @@
 import string
-text = str(input("tip your text to convert: "))
+text = str(input("eisagete to keimeno: "))
 def rot13(text):
    rot13 = string.maketrans("ABCDEFGHIJKLMabcdefghijklmNOPQRSTUVWXYZnopqrstuvwxyz",
                                 "NOPQRSTUVWXYZnopqrstuvwxyzABCDEFGHIJKLMabcdefghijklm")
